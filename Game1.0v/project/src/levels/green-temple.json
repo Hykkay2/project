@@ -1,0 +1,162 @@
+{
+  "cameraBounds": { "minX": -5, "maxX": 115, "minY": -4, "maxY": 12 },
+  "startingPlatform": {
+    "position": [0, 0, 0],
+    "size": [10, 0.5, 3],
+    "colliderHalfExtents": [5, 0.25, 1.5]
+  },
+  "slope": {
+    "position": [8.896, -0.69, 0],
+    "size": [8, 0.5, 3],
+    "angleRadians": -0.17453292519943295,
+    "colliderHalfExtents": [4, 0.25, 1.5]
+  },
+  "landingPlatform": {
+    "position": [20, -1.388, 0],
+    "size": [16, 0.5, 3],
+    "colliderHalfExtents": [8, 0.25, 1.5]
+  },
+  "centralExitPlatform": {
+    "position": [50, -1.388, 0],
+    "size": [16, 0.5, 3],
+    "colliderHalfExtents": [8, 0.25, 1.5]
+  },
+  "centralCheckpoint": {
+    "position": [45, -1.138, 0],
+    "sensorColliderHalfExtents": [0.6, 0.9, 1.4],
+    "redPlayerPosition": [44, -0.508, 0],
+    "bluePlayerPosition": [46, -0.508, 0]
+  },
+  "trainingWall": {
+    "position": [-4, 0.75, 0],
+    "size": [0.5, 1.5, 3],
+    "colliderHalfExtents": [0.25, 0.75, 1.5]
+  },
+  "spikeStrip": {
+    "position": [15, -3.5, 0],
+    "visualPosition": [15, -3.9, 0],
+    "baseSize": [1.5, 0.12, 3],
+    "spikeRadius": 0.18,
+    "spikeHeight": 0.78,
+    "spikeCount": 5,
+    "spikeSpacing": 0.3,
+    "solidColliderHalfExtents": [0.75, 0.48, 1.5],
+    "sensorColliderHalfExtents": [0.85, 0.58, 1.5]
+  },
+  "buttons": {
+    "red": {
+      "position": [26.5, -1.268, 0],
+      "visualPosition": [26.5, -1.048, 0],
+      "size": [0.9, 0.18, 2.4],
+      "sensorColliderHalfExtents": [0.45, 0.2, 1.2]
+    },
+    "blue": {
+      "position": [34.25, -1.268, 0],
+      "visualPosition": [34.25, -1.048, 0],
+      "size": [0.9, 0.18, 2.4],
+      "sensorColliderHalfExtents": [0.45, 0.2, 1.2]
+    }
+  },
+  "neutralButton": {
+    "position": [19, -1.268, 0],
+    "visualPosition": [19, -1.048, 0],
+    "size": [2, 0.18, 2.4],
+    "sensorColliderHalfExtents": [1, 0.2, 1.2]
+  },
+  "door": {
+    "position": [24, -0.388, 0],
+    "size": [0.5, 1.5, 3],
+    "colliderHalfExtents": [0.25, 0.75, 1.5],
+    "passageSensorHalfExtents": [0.38, 0.8, 1.5],
+    "openOffsetY": 2,
+    "closeDelaySeconds": 0.5
+  },
+  "lever": {
+    "position": [25.3, -1.138, 0],
+    "interactionRadius": 0.8
+  },
+  "bridge": {
+    "retractedPosition": [24, -1.288, 0],
+    "extendedPosition": [31.75, -1.288, 0],
+    "size": [7.5, 0.3, 3],
+    "colliderHalfExtents": [3.75, 0.15, 1.5],
+    "pocket": {
+      "floorSize": [1.8, 0.04, 2.7],
+      "railSize": [1.8, 0.3, 0.16],
+      "railOffsetZ": 1.42
+    },
+    "speed": 4.5
+  },
+  "blueBridge": {
+    "retractedPosition": [47, -1.288, 0],
+    "extendedPosition": [39.25, -1.288, 0],
+    "size": [7.5, 0.3, 3],
+    "colliderHalfExtents": [3.75, 0.15, 1.5],
+    "speed": 4.5
+  },
+  "elevator": {
+    "lowerPosition": [60, -1.138, 0],
+    "upperPosition": [60, 10.5, 0],
+    "size": [4, 0.3, 3],
+    "colliderHalfExtents": [2, 0.15, 1.5],
+    "safeZoneHalfExtents": [1.6, 0.3, 1.2],
+    "speed": 1.5,
+    "returnSpeed": 0.6,
+    "chainAnchorY": 11.3
+  },
+  "elevatorLever": {
+    "position": [68, 8.175, 0],
+    "interactionRadius": 0.8
+  },
+  "elevatorParkourPlatforms": [
+    {
+      "position": [65, 0.8, 0],
+      "size": [2, 0.35, 3],
+      "colliderHalfExtents": [1, 0.175, 1.5]
+    },
+    {
+      "position": [68, 3.2, 0],
+      "size": [2, 0.35, 3],
+      "colliderHalfExtents": [1, 0.175, 1.5]
+    },
+    {
+      "position": [65, 5.6, 0],
+      "size": [2, 0.35, 3],
+      "colliderHalfExtents": [1, 0.175, 1.5]
+    },
+    {
+      "position": [68, 8, 0],
+      "size": [2, 0.35, 3],
+      "colliderHalfExtents": [1, 0.175, 1.5]
+    }
+  ],
+  "finalSlope": {
+    "position": [77.73, 8.34, 0],
+    "size": [16, 0.5, 3],
+    "angleRadians": -0.2617993877991494,
+    "colliderHalfExtents": [8, 0.25, 1.5]
+  },
+  "upperExitPlatform": {
+    "position": [66, 10.4, 0],
+    "size": [8, 0.5, 3],
+    "colliderHalfExtents": [4, 0.25, 1.5]
+  },
+  "nestIsland": {
+    "position": [97.5, 4.3, 0],
+    "size": [20, 0.5, 3],
+    "colliderHalfExtents": [10, 0.25, 1.5]
+  },
+  "nest": {
+    "position": [97.5, 4.6, 0],
+    "sensorColliderHalfExtents": [0.75, 0.5, 1.2]
+  },
+  "fallZone": {
+    "position": [25, -4, 0],
+    "colliderHalfExtents": [35, 0.5, 2]
+  },
+  "checkpoint": {
+    "egg": [0, 0.625, 0],
+    "redPlayer": [1.25, 0.88, 0],
+    "bluePlayer": [-0.75, 0.88, 0]
+  }
+}
